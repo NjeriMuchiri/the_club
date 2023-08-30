@@ -1,7 +1,4 @@
 {% load static %}
-
-{% block content %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,6 +11,7 @@
     <center>
     <h1>Hi Njesh, You've got this! {{ year }}/{{ month }}</h1>
     <div>
+        <p>As of {{time}}</p>
     {{ the_calendar|safe }}
     </div>
     </center>
@@ -22,4 +20,3 @@
     </footer>
 </body>
 </html>
-{% endblock content %}
