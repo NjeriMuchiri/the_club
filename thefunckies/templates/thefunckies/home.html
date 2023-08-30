@@ -1,8 +1,13 @@
+{% load static %}
+
+{% block content %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'thefunckies/home.css' %}">
     <title>The Funckies</title>
 </head>
 <body>
@@ -12,5 +17,9 @@
     {{ the_calendar|safe }}
     </div>
     </center>
+    <footer>
+        Copyright &copy; {{ current_year }} TheClub.
+    </footer>
 </body>
 </html>
+{% endblock content %}

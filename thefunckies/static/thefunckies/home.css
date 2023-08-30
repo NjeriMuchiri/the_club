@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    padding: 10px;
+    background-color: #d2691e;
+    width: 100%;
+    color: #000000;
+}
