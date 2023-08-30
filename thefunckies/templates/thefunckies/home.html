@@ -6,7 +6,11 @@
     <title>The Funckies</title>
 </head>
 <body>
-    <h1>Hi Njesh, You've got this! {{ year }}{{ month }}</h1>
-    {{ the_calendar }}
+    <center>
+    <h1>Hi Njesh, You've got this! {{ year }}/{{ month }}</h1>
+    <div>
+    {{ the_calendar|safe }}
+    </div>
+    </center>
 </body>
 </html>
